@@ -4,7 +4,6 @@ public class CarDogMain1 {
 	public static void main(String[] args) {
 		Car car = new Car();
 		Dog dog = new Dog();
-		
 		action(car);
 		action(dog);
 	}

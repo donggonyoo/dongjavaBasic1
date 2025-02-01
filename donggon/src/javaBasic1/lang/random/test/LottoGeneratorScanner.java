@@ -2,7 +2,9 @@ package javaBasic1.lang.random.test;
 
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
+import java.util.Comparator;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Random;
@@ -22,7 +24,6 @@ public class LottoGeneratorScanner {
 		
 	}
 	lotto2 = new ArrayList<>(lotto);
-	lotto2.sort(null);
 	return lotto2;
 	
 	}

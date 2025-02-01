@@ -12,6 +12,7 @@ public class AuthGradeMain1 {
 
 	}
 	private static void printAuth(AuthGrade auth) {
+		//name은 enum에서 제공하는 메서드
 		System.out.println(auth.name()+"| level : "+auth.getLevel()+
 				" | description : "+auth.getDescription());
 		

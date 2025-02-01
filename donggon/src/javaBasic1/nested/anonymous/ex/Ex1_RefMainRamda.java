@@ -15,6 +15,9 @@ public class Ex1_RefMainRamda {
 			a = new Random().nextInt(6)+1;
 			System.out.println("주사위 : "+a);
 		});
+		hello(()->{
+			System.out.println("주사위의 합을 구해봐요");
+		});
 		
 		hello(()-> {
 			int sum = 0;
@@ -24,9 +27,10 @@ public class Ex1_RefMainRamda {
 				if(i != a) {
 					System.out.print("+");
 				}
-
-
-			}System.out.println("\n주사위의 합 : "+sum);
+				else {
+					System.out.print("=");
+				}
+			}System.out.println(sum);
 		});
 		
 

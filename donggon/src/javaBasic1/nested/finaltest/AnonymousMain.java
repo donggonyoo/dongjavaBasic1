@@ -6,11 +6,12 @@ public class AnonymousMain {
 		Hello a = new Hello() {
 
 			@Override
-			public void hello() {
+			public void print() {
 				System.out.println("Hello.hello");
 
 			}
-		};a.hello();
+		};
+		a.print();
 		System.out.println(a.getClass());
 		
 		

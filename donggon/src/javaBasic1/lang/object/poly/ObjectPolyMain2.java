@@ -8,10 +8,12 @@ public class ObjectPolyMain2 {
 		
 		Object[] obj = {car,dog,object};
 		arr(obj);
-	
-
 		
-	}
+		System.out.println("@@배열 요소들의 주소  모음@@");
+		for (Object object2 : obj) {
+			System.out.println(object2);
+		}}
+	
 	
 	private static void arr(Object[] obj) {
 		int length = obj.length;

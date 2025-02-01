@@ -1,15 +1,15 @@
 package javaBasic1.nested.local;
 
 public class LocalOuterV2 {
-	private String outInstanceF = "바깥클래스 필드";
+	private final String outInstanceF = "바깥클래스 필드";
 
 	public void process(int param) {
-		String localF = "바깥클래스의 지역 변수";
+		final String localF = "바깥클래스의 지역 변수"; //지역클래스가 접근하는 변수는 변경되선 안된다
 
-		class LocalPrint implements Printer{
+		class LocalPrint implements Printer{ 
 			String F = "지역클래스의 변수";
 			@Override
-			public void print() {
+			public void print() { 
 				System.out.println("F : "+F);
 				System.out.println("localF : "+localF);
 				System.out.println("param : "+param);

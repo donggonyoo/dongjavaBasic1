@@ -13,6 +13,8 @@ public class NoBoxingtest {
 		Integer valueOf = Integer.valueOf(intValue); //int --> Integer
 		System.out.println(valueOf);
 		
+		String valueOf2 = String.valueOf(integer); //Integer-->String
+		System.out.println("String.valueof+1 : "+valueOf2+1);
 		
 
 	}

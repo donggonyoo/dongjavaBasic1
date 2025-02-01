@@ -15,8 +15,9 @@ public enum Grade3 {
 	}
 	public int Discount( int price) {
 		return price * discount / 100;
-		
 	}
+	//enum은 toString이 안됨
+	
 	
 
 }

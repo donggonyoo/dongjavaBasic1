@@ -4,6 +4,8 @@ public class NetworkService_Auto{
 	public void sendMessage(String data) throws Exception{
 		String address = "http://.donggon.com";
 
+		//try with resource 사용법
+		//try(Resource re = new Resource())
 		try( NetworkClient_Auto client= new NetworkClient_Auto(address)) {
 			client.initError(data); //오류검사
 			client.connect();

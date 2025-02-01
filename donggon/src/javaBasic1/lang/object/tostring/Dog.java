@@ -9,6 +9,12 @@ public class Dog {
 		this.name = name;
 		
 	}
+
+	@Override
+	public String toString() {
+		return "Dog [name=" + name + "]";
+	}
+	
 	
 	
 

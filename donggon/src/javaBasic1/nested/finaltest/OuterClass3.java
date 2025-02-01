@@ -9,6 +9,7 @@ public class OuterClass3 {
 			System.out.println(LocalClass.class);
 			System.out.println("LocalClass의 메서드 hello");
 			System.out.println(outerInstance+"접근가능");
+			System.out.println(OuterClass3.this.outerInstance);
 		}
 		}
 		LocalClass localClass = new LocalClass();
