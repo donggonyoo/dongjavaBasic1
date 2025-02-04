@@ -9,8 +9,8 @@ public class MainClass {
 	public static void main(String[] args)  {
 		//URL클래스 : URL 처리를 위한 클래스
 		//접속 주소(가상)
-		String spec = "https://www.example.com:9090/board/view.html?no=1&week=mon#footnote";
 		String a = "protocol://host:port/path?query#reference";
+		String spec = "https://music.youtube.com/search?q=%EB%B0%9C%EB%9D%BC%EB%93%9C+%EB%AA%A8%EC%9D%8C";
 		
 		try {
 			URL url = new URL(spec);
